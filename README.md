@@ -13,7 +13,7 @@ A giphy bot for hipchat. Uses the [webhook endpoint endpoint](https://www.hipcha
 
 ### config.json
 
-```json
+```javascript
 {
   // Needed to create webhooks, must have admin privileges for the room.
   "webhooks_token": "",
