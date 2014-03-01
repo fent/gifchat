@@ -1,0 +1,11 @@
+{
+  "webhooks_key": "",
+  "rooms": {
+    "myroom": ""
+  },
+  "hookname": "gifchat",
+  "hookurl": "",
+  "port": 5000,
+  "color": "gray",
+  "format": "html"
+}
