@@ -7,7 +7,7 @@ A giphy bot for hipchat. Uses the [webhook endpoint endpoint](https://www.hipcha
     $ git clone git@github.com:fent/gifchat.git
     $ cd gifchat
     $ npm install
-    $ cp config.tmp.json config.json
+    $ cp tmp.config.json config.json
     $ # edit the config.json file with your auth keys and host.
     $ npm start
 
