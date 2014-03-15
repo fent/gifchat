@@ -37,5 +37,6 @@ module.exports = function(item, callback) {
         '<a href="' + img + '"><img src="' + img + '" /></a>' : img
     });
   }
+
   return result;
 };
