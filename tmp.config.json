@@ -6,6 +6,10 @@
   "hookname": "gifchat",
   "hookurl": "",
   "port": 5000,
-  "color": "gray",
-  "format": "html"
+  "commands": {
+    "gif": {
+      "color": "gray",
+      "format": "html"
+    }
+  }
 }
