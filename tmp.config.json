@@ -10,6 +10,10 @@
     "gif": {
       "color": "gray",
       "format": "html"
+    },
+    "img": {
+      "color": "gray",
+      "format": "html"
     }
   }
 }
