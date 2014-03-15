@@ -29,13 +29,20 @@ A giphy bot for hipchat. Uses the [webhook endpoint endpoint](https://www.hipcha
   // Needed for webhooks.
   "host": "http://myhost.com:5000",
 
-  // Can be yellow, red, green, purple, gray, random.
-  "color": "gray",
+  // Each command gets their own config.
+  "commands": {
+    "gif": {
+      "enabled": true,
 
-  // If html format, will post the gif as an image tag that cannot be hidden.
-  // With text format, a link will be posted and it will appear as if a
-  // regular user has posted a link to a gif.
-  "format": "html"
+      // Can be yellow, red, green, purple, gray, random.
+      "color": "gray",
+
+      // If html format, will post the gif as an image tag that cannot be hidden.
+      // With text format, a link will be posted and it will appear as if a
+      // regular user has posted a link to a gif.
+      "format": "html"
+    }
+  }
 }
 ```
 
