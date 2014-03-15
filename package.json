@@ -17,7 +17,7 @@
     "connect": "~2.13.0",
     "eventvat": "~0.2.1",
     "giphy-wrapper": "~0.0.1",
-    "google-image": "~0.1.0",
+    "google-images": "~0.1.0",
     "request": "~2.34.0"
   },
   "licenses": [ {
