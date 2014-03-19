@@ -1,6 +1,6 @@
 var client = require('google-images');
 var cache  = require('eventvat')({ autoexpire: 3600 });
-var regexp = /.+\.(?:gif|png|jpg|jpeg)$/;
+var regexp = /^[a-zA-Z0-9-_ .]+\.(?:gif|png|jpg|jpeg)$/;
 
 module.exports = function(item, callback) {
   var config = this.config;
