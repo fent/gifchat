@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "async": "~0.2.10",
-    "connect": "~2.13.0",
+    "connect": "~2.14.3",
     "eventvat": "~0.2.1",
     "giphy-wrapper": "~0.0.1",
     "google-images": "~0.1.0",
