@@ -13,8 +13,8 @@
     "start": "node lib/index.js"
   },
   "dependencies": {
-    "async": "~0.7.0",
-    "connect": "~2.14.3",
+    "async": "~0.8.0",
+    "connect": "~2.15.0",
     "eventvat": "~0.2.1",
     "giphy-wrapper": "~0.0.1",
     "google-images": "~0.1.0",
