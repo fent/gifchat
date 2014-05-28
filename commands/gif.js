@@ -17,7 +17,8 @@ module.exports = function(item, callback) {
       giphy.search(query, limit, offset, function(err, data) {
         if (err) return callback(err);
         if (!data || !data.data || !data.data.length) {
-          return callback(new Error('no gifs found for "' + query + '"'));
+          return callback(new Error(
+            'no gifs found for "' + decodeURIComponent(query) + '"'));
         }
 
         data = data.data;
