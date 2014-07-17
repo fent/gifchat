@@ -20,7 +20,7 @@
     "giphy-wrapper": "~0.0.1",
     "google-images": "~0.1.0",
     "morgan": "~1.1.1",
-    "request": "~2.36.0"
+    "request": "~2.37.0"
   },
   "licenses": [ {
     "type": "MIT",
