@@ -19,7 +19,7 @@ A giphy bot for hipchat. Uses the [webhook endpoint endpoint](https://www.hipcha
   "webhooks_token": "",
 
   // List of rooms along with their auth tokens, which are per room.
-  // Can be generated here: https://poptip.hipchat.com/rooms
+  // Can be generated here: https://hipchat.com/rooms
   "rooms": {
     "test": "",
     "product": ""
